@@ -1,0 +1,4 @@
+<p>component2 works!</p>
+<p>Data from Child Component : <b>{{message}}</b></p>
+<p>Data sent to Grand-Parent Component : <b>{{message}}</b></p>
+<app-component3 (childEvent)="fireEvent(message=$event)"></app-component3>

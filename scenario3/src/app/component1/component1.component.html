@@ -1,0 +1,6 @@
+<h2>Component 1</h2>
+
+<input #userText type="text">
+<br><br>
+<button (click)="onClick(userText.value)">Send To Child Component</button>
+<app-component2 [parentData]="name"></app-component2>
